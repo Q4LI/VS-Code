@@ -3,7 +3,7 @@ package Coursework;
 import java.util.ArrayList;
 
 public class TodoModel {
-    private ArrayList<Task> List;
+    private ArrayList<Task> List = new ArrayList<>();
 
     public void addTask(Task task){
         List.add(task);
